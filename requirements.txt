@@ -1,6 +1,6 @@
-numpy
-tensorflow
-opencv-python-headless
-scikit-learn
-matplotlib
-streamlit
+streamlit==1.37.0
+opencv-python-headless==4.10.0.84
+numpy==2.0.1
+tensorflow-cpu==2.14.0
+pandas==2.2.2
+matplotlib==3.9.1
