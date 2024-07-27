@@ -1,0 +1,12 @@
+# Set the default behavior to automatically normalize line endings.
+* text=auto
+
+# Force LF line endings for all text files.
+*.txt text eol=lf
+*.sh text eol=lf
+
+# Force CRLF line endings for Windows-specific files.
+*.bat text eol=crlf
+
+# Treat all files in the .idea directory as text and normalize their line endings.
+.idea/* text=auto
